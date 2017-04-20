@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/EnrollmentLeftLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ButtonLeftThumb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/left_thumb" />
+
+            <Button
+                android:id="@+id/ButtonLeftIndex"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/left_index" />
+
+            <Button
+                android:id="@+id/ButtonLeftMiddle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/left_middle" />
+
+            <Button
+                android:id="@+id/ButtonLeftRing"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/left_ring" />
+
+            <Button
+                android:id="@+id/ButtonLeftLittle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/left_little" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ButtonRightThumb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right_thumb" />
+
+            <Button
+                android:id="@+id/ButtonRightIndex"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/right_index" />
+
+            <Button
+                android:id="@+id/ButtonRightMiddle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/right_middle" />
+
+            <Button
+                android:id="@+id/ButtonRightRing"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/right_ring" />
+
+            <Button
+                android:id="@+id/ButtonRightLittle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/right_little" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ButtonDeleteAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_all" />
+
+            <Button
+                android:id="@+id/ButtonVerifyAll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/identify" />
+
+            <Button
+                android:id="@+id/ButtonGrab"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grab" />
+
+            <Button
+                android:id="@+id/ButtonNavigateRaw"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/navigate_raw" />
+
+            <Button
+                android:id="@+id/ButtonNavigateMouse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/navigate_mouse" />
+
+            <Button
+                android:id="@+id/ButtonNavigateDiscrete"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/navigate_discrete" />
+
+            <Button
+                android:id="@+id/ButtonQuit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quit" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/EnrollmentTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/RelativeLayout02"
+        android:gravity="center_vertical|center_horizontal" />
+
+
+        <Button
+            android:id="@+id/fp_scanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_below="@+id/RelativeLayout02"
+            android:text="fp_scanner" />
+
+    <Button
+        android:id="@+id/mini_usb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mini_usb"
+        android:visibility="gone"
+        android:layout_below="@+id/RelativeLayout02"
+        android:layout_toRightOf="@+id/fp_scanner"
+        android:layout_toEndOf="@+id/fp_scanner"
+        android:layout_marginLeft="69dp"
+        android:layout_marginStart="69dp" />
+</RelativeLayout>
+
+    
+
+

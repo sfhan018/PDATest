@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SCL_Samples</string>
+
+    <string name="basic_sample">Basic SCL Sample</string>
+
+    <string name="left_thumb">Left Thumb</string>
+    <string name="left_index">Left Index</string>
+    <string name="left_middle">Left Middle</string>
+    <string name="left_ring">Left Ring</string>
+    <string name="left_little">Left Little</string>
+    <string name="right_thumb">Right Thumb</string>
+    <string name="right_index">Right Index</string>
+    <string name="right_middle">Right Middle</string>
+    <string name="right_ring">Right Ring</string>
+    <string name="right_little">Right Little</string>
+
+    <string name="delete_all">Delete All</string>
+    <string name="identify">Identify</string>
+    <string name="grab">Grab Image</string>
+    <string name="navigate_raw">Navigate - raw mode</string>
+    <string name="navigate_mouse">Navigate - mouse mode</string>
+    <string name="navigate_discrete">Navigate - discrete mode</string>
+    <string name="quit">Quit</string>
+
+    <string name="OK">OK</string>
+    <string name="PowerOn">Set PowerOn FINGER</string>
+    <string name="BnPowerOn">PowerOn</string>
+    <string name="PowerOff">Set PowerOff FINGER</string>
+    <string name="BnPowerOff">PowerOff</string>
+
+</resources>
